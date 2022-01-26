@@ -1,0 +1,81 @@
+/* Clase de Css */
+
+/* esto es un comentario !  */
+/* h2 selecciona etiquetas
+    section h2 selecciona etiquetas dentro de section
+    main section h2 selecciona etiquetas dentro de section dentro de main
+*/
+/* Clases
+Las clases se seleccionan con .clase
+*/
+/* Id
+Los ID se seleccionan con #ID 
+*/
+/* @font-face {
+  font-family: "Roboto-Regular.ttf";
+  src: url(../css/fonts/Roboto/Roboto-Regular.ttf);
+}
+body {
+  font-family: "Roboto-Regular.ttf", sans-serif;
+  background-color: rgb(244, 244, 244);
+}
+main, footer { 
+    background-color: lightgray;
+}
+
+p{
+    text-align: justify;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.uno {
+    background-image: url(../image/inicio-1.jpg) ;
+} */
+
+
+
+
+                   /* Clase de BOX-Model */
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+}    
+
+
+div {
+    width: 25%;
+    display: inline-block;
+}
+
+article{
+    margin: 30px 30px 30px 30px;
+}
+
+
+footer {
+    color: antiquewhite;
+    height: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: black;
+    text-align: justify;
+    position: -webkit-sticky;
+}
+
+.navFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: ;
+    flex-wrap: ;
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+    flex-flow: ;
+    justify-content: center;
+}
